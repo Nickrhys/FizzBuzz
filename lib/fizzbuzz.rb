@@ -3,5 +3,5 @@ def divisable_by_3(number)
 end
 
 def divisable_by_5(number)
-	true
+	number % 5 == 0 
 end
