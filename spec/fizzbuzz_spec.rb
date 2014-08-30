@@ -21,4 +21,8 @@ describe "Fizzbuzz" do
 	it "should know that 15 is divisable by 3 and 5" do
 		expect(divisable_by_15(15)).to eq true
 	end
+
+	it "should know that 16 is not divisable by 3 and 5" do
+		expect(divisable_by_15(16)).to eq false
+	end
 end
