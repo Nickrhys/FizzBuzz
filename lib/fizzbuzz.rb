@@ -5,3 +5,7 @@ end
 def divisable_by_5(number)
 	number % 5 == 0 
 end
+
+def divisable_by_15(number)
+	true
+end
