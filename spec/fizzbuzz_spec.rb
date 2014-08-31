@@ -37,4 +37,8 @@ describe "Fizzbuzz" do
 	it "puts Fizzbuzz when divisable by 15" do
 		expect(fizzbuzz(15)).to eq "Fizzbuzz"
 	end
+
+	it "puts number for eveything else" do
+		expect(fizzbuzz(1)).to eq 1
+	end
 end
