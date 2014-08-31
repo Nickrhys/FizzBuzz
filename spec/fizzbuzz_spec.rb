@@ -33,4 +33,8 @@ describe "Fizzbuzz" do
 	it "puts Buzz when divisable by 5" do
 		expect(fizzbuzz(5)).to eq "Buzz"
 	end
+
+	it "puts Fizzbuzz when divisable by 15" do
+		expect(fizzbuzz(15)).to eq "Fizzbuzz"
+	end
 end
